@@ -1,0 +1,65 @@
+characters:
+ - name: Melter Pend 
+   debut: 218
+   occupation: Leader of the Nartel Clan
+ - name: Racey Narette
+   debut: 218
+   race: human
+   sex: F
+   class: priest # heindel church
+ - name: Fel Akabard
+   debut: 220
+   sex: M
+   race: human
+   class: guardian # front line warrior
+   rank: 5
+ - name: Kars Erimor
+   sex: M
+   race: human
+   class: knight
+   debut: 220
+ - name: Humble Eberton
+   debut: 220
+   sex: M
+   race: human
+ - name: Teterudra
+   race: dwarf
+   debut: 220
+ - name: Alessandro Bell
+   sex: M
+   debut: 223
+   race: human
+   class: warrior
+   rank: 5
+ - name: Karkin, son of Tion
+   sex: M
+   class: warrior
+   race: barbarian
+   debut: 223
+   rank: 4
+ - name: Melton Teterud
+   sex: M
+   race: dwarf
+   class: warrior
+   occupation: clan leader # all dwarf clan
+   debut: 223
+   rank: 4
+ - name: Sillian Nerf
+   debut: 224
+   sex: M
+   others:
+    - Sillian Nerf.
+    - Neil Fames.
+    - Paul Agmus.
+    - Garfen Gulan.
+    - Matt Elbans.
+    - Refri Siaverus.
+ - name: Rebecca Eizel
+   debut: 226
+   sex: F
+   others:
+    - Khan Algon # knight
+    - Fulton Kassel
+ - name: Portian Myriant # nartel clan
+   debut: 233
+
