@@ -1,0 +1,170 @@
+floors:
+  floor-1:
+    regions:
+      - name: Crystal Cave
+        debut: 1 # double check
+    rifts:
+      - name: Blood Tinted Castle
+      - name: Glaciet Caves
+      - name: Green Coal Mine
+        debut: 374
+      - name: Tomb of Steel
+        debut: 456
+        monsters:
+          - mummy / 1
+          - iron soldier / 3
+          - buried one / 2
+          - guardian's eye / 2
+          - iron lizardman / 3
+          - riddle keeper / ?
+        boss:
+          - iron ildium / 4, mutant variant / 1, guardian kill / 3
+        items:
+         - mercurial liquid # consumable, MR +3 permanently (not stackable)
+         - iron blessing # consumable, PR +3 permenently (not stackable)
+  floor-2:
+    regions:
+      - name: Goblin Forest
+        debut: ...
+      - name: Beast's Den
+        debut: ...
+      - name: Rock Desert
+        debut: ...
+      - name: Land of the Dead
+        debut: ...
+  floor-3:
+    regions:
+      - name: Witch's Forest
+        debut: ...
+      - name: Pilgrim's Path
+        debut: ...
+      - name: Iron Rock Hills
+        debut: ...
+  floor-4:
+    regions:
+      - name: Sky Tower # name of whole region
+        debut: ...
+      - name: Tower of Courage # double check
+        debut: ...
+  floor-5:
+    regions:
+      - name: Great Demon's Realm # name of whole region
+        debut: ?
+        facts:
+          - entrance is a huge safe zone where many clans and parties camp
+      - name: Hellfire Ravine
+        debut: ?
+        facts:
+          - special area; all resource cost increase by 1.5 and fire resistance decrease by -30
+      - name: Frost Ravine
+      - name: Wraith Ravine
+  floor-6:
+    closure-time: 60days
+    regions:
+      - name: Great Sea # name of whole region
+        debut: ...
+      - name: Lymia
+        debut: 264
+        trait: Starting Island
+        facts:
+          - island of beginnings
+          - bjorn and misha scattered dwalkie's remains (badge) here
+          - from this floor onwards, regions do not reset every month like lower floors
+          - can be farmed for wood to upgrade boats or sell as lumber
+          
+      - name: Farune Island
+        debut: 265
+        facts:
+          - spawns monsters only level 8 and below
+          - contains an item that, when destroyed, triggers an event
+          - cloest island west of starting point 
+      - name: Gurka Island
+        debut: 375
+        facts:
+          - closest island east of the starting point
+      - name: Anos Island
+        debut: 375
+        facts:
+          - east of Gurka iisland
+          - contains 99% jungle, aside fromthe coastline
+      - name: Fione Island
+        debut: 375
+      - name: Windless Zone
+        debut: 379
+        facts:
+          - special regions
+          - no wind blows, tequiring the use of magic propulsion
+          - compasses do not work here requiring ecperienced navigators to determine the route
+      - name: Grand Rock
+        debut: 279
+        facts:
+          - the far easter sea region, just past the windless zone
+      - name: Atlante, Undersea Island
+        debut: 280
+        facts:
+          - located in the Grand Rock region
+          - a hidden undersea region unlocked after completing events at the three red rock islands
+          - accessed via a portal at the heart of the underwater ruins
+          - not a rift, but considered a hidden field,
+          - explorers can witness part of a myth
+  floor-7:
+    closure-time: 75days
+    regions:
+      - name: Dark Continent
+        debut: ? # ravens escort mission w/ bjorn as rihen
+      - name: Ghost Valley
+        debut: 365
+        facts:
+          - is the entry barrier to the dark continent
+      - name: Aribeona Delta River
+        debut: 365
+        facts:
+          - leads to a lake where waterfalls cascade down
+          - quickest way to reach the heart of the dark content, the dargon mountains
+      - name: Dargon Mountains
+        debut: 365
+        facts:
+           - the heart of the dark continent
+           - where bellarios is found
+      - name: Great Forest
+        debut: 365
+        facts:
+           - a vast jungle to the east of the delta river
+           - is so large, its divided into 3 smaller sub-regions
+      - name: Pantheon Ruins
+        debut: 365
+        facts:
+          - located west of the delta river
+          - is essentially a wasteland
+      - name: Ice Rock
+        debut: 399
+        facts:
+          - is a special area
+          - has field effect - reduces cold resistance by 100, and spatial storages are inaccessible. also, hunger increases 3 times faster
+      - name: Glacier Eye
+        debut: 401
+        facts:
+          - is a special area
+          - has field effect to resurrect dead comrades as undead monsters. also healing and recovery items and spells do damage, and natural recovery causes decay to any wound, minor or major.
+          - explorers must traverse down a long winding path along the wall of a massive cylindric column to reach the 8th floor portal
+      - name: Dragon's Depth
+        debut: 406
+        facts: 
+          - like a dinosaur graveyard with large skull and bone fragments scattered around the ruins
+      - name: Iron Falls
+        debut: 409
+      - name: Grey Plains
+        debut: 409
+        facts:
+          - 
+  floor-8:
+    name: Land of Dawn
+    closure-time: ...
+    regions:
+      - is essentially a sfe zone where monsters don't appear unless you enter a rift
+      - clearing a rift opens 2 portals, one to advance to the 9th floor and another to return to the 8th
+          
+          
+  info:
+    speculations:
+      - length of time the labyrinth is remains open differs by floor. the speculated formula is 5 × {floor level}

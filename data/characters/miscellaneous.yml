@@ -1,65 +1,109 @@
 characters:
- - name: Melter Pend 
-   debut: 218
-   occupation: Leader of the Nartel Clan
- - name: Racey Narette
-   debut: 218
-   race: human
-   sex: F
-   class: priest # heindel church
- - name: Fel Akabard
-   debut: 220
-   sex: M
-   race: human
-   class: guardian # front line warrior
-   rank: 5
- - name: Kars Erimor
-   sex: M
-   race: human
-   class: knight
-   debut: 220
- - name: Humble Eberton
-   debut: 220
-   sex: M
-   race: human
- - name: Teterudra
-   race: dwarf
-   debut: 220
- - name: Alessandro Bell
-   sex: M
-   debut: 223
-   race: human
-   class: warrior
-   rank: 5
- - name: Karkin, son of Tion
-   sex: M
-   class: warrior
-   race: barbarian
-   debut: 223
-   rank: 4
- - name: Melton Teterud
-   sex: M
-   race: dwarf
-   class: warrior
-   occupation: clan leader # all dwarf clan
-   debut: 223
-   rank: 4
- - name: Sillian Nerf
-   debut: 224
-   sex: M
-   others:
-    - Sillian Nerf.
-    - Neil Fames.
-    - Paul Agmus.
-    - Garfen Gulan.
-    - Matt Elbans.
-    - Refri Siaverus.
- - name: Rebecca Eizel
-   debut: 226
-   sex: F
-   others:
-    - Khan Algon # knight
-    - Fulton Kassel
- - name: Portian Myriant # nartel clan
-   debut: 233
-
+  - name: Melter Pend 
+    debut: 218
+    occupation: Leader of the Nartel Clan
+  - name: Racey Narette
+     debut: 218
+     race: human
+     sex: F
+     class: priest # heindel church
+  - name: Fel Akabard
+     debut: 220
+     sex: M
+     race: human
+     class: guardian # front line warrior
+     rank: 5
+  - name: Kars Erimor
+     sex: M
+     race: human
+     class: knight
+     debut: 220
+  - name: Humble Eberton
+     debut: 220
+     sex: M
+     race: human
+  - name: Teterudra
+     race: dwarf
+     debut: 220
+  - name: Alessandro Bell
+     sex: M
+     debut: 223
+     race: human
+     class: warrior
+     rank: 5
+  - name: Karkin, son of Tion
+     sex: M
+     class: warrior
+     race: barbarian
+     debut: 223
+     rank: 4
+  - name: Melton Teterud
+     sex: M
+     race: dwarf
+     class: warrior
+     occupation: clan leader # all dwarf clan
+     debut: 223
+     rank: 4
+  - name: Sillian Nerf
+     debut: 224
+     sex: M
+     others:
+      - Sillian Nerf.
+      - Neil Fames.
+      - Paul Agmus.
+      - Garfen Gulan.
+      - Matt Elbans.
+      - Refri Siaverus.
+  - name: Rebecca Eizel
+    debut: 226
+    sex: F
+    others:
+      - Khan Algon # knight
+      - Fulton Kassel
+  - name: Portian Myriant # nartel clan
+    debut: 233
+  - name: Alex Hale
+    debut: 353
+    others:
+      - Raikion Elt # rank 5
+      - Hans Ksaisrt
+  - name: Melliver Eltein
+    debut: 365
+    sex: M
+    race: human
+  - name: Ekshir Melik
+    debut: 377
+    occupation: Leader of the Huntsman clan
+  - name: Rick Jergasta
+    debut: 404
+    race: human
+    class: warrior
+    # melee fighter from james calla's team
+  - name: Might Million
+    debut: 412
+    race: human
+    class: warrior
+    # member of james calla's team during ice rock expedition
+    others:
+      - Fiona Amos # priest of 4th team
+      - Nialo Campbell # mage of 3rd team
+  - name: Periton Eriavosti
+    debut: 417
+    sex: F
+    class: priest
+  - name: Matt Hybrid
+    class: paladin # of 4th team
+    debut: 419
+    others:
+      - Pasible Eric Colson # knight of 5th team and friend of kaislan
+  - name: Ventis Gerod
+    debut: 422
+    class: support # from 3rd team
+    others:
+      - Royta Memander # priest
+  - name: Periton Eriavosti
+    debut: 425
+    sex: F
+    class: priest # from 5th team
+    order: Heindel
+    

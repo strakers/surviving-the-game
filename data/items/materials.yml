@@ -1,0 +1,21 @@
+wood:
+  tier 1: ?
+  tier 2: ?
+  tier 3: ?
+  tier 4:
+    - vortal 
+    
+metal:
+  tier 1:
+  tier 2:
+  tier 3: 
+    - lithanium
+    - idium
+  tier 4:
+  tier 5:
+    - adamantium # reduces atteibute dmg by 50%
+    
+leather:
+  tier 1:
+  tier 2:
+    - wyvern leather
