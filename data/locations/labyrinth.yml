@@ -108,6 +108,7 @@ floors:
           - not a rift, but considered a hidden field,
           - explorers can witness part of a myth
   floor-7:
+    name: Dark Continent
     closure-time: 75days
     regions:
       - name: Dark Continent
@@ -157,14 +158,23 @@ floors:
         debut: 409
         facts:
           - 
+      - name: Pamtheon Ruins
+        debut: 610 # in name only
+        facts:
+          - only place in the labyrinth with mechanical type monsters
   floor-8:
     name: Land of Dawn
     closure-time: ...
     regions:
-      - is essentially a sfe zone where monsters don't appear unless you enter a rift
+      - is essentially a safe zone where monsters don't appear unless you enter a rift
       - clearing a rift opens 2 portals, one to advance to the 9th floor and another to return to the 8th
           
-          
+  basement-1:
+    name: Archives
+    regions:
+      - name: Rainbow Island
+        facts:
+          - contains factory called Pantelion (debut:618)
   info:
     speculations:
       - length of time the labyrinth is remains open differs by floor. the speculated formula is 5 × {floor level}

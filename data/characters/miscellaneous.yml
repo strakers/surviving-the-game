@@ -106,4 +106,45 @@ characters:
     sex: F
     class: priest # from 5th team
     order: Heindel
+  - name: Malrid Kevron
+    debut: 459
+    sex: M
+    class: scout # scout
+    clan: gearfang
+    # from clan that summoned riakis on 3rd floor without guild petmission
+  - name: Baron Heskaira
+    debut: 464
+    sex: 
+    race: fairy # blue haired
+  - name: Baron Bruellin
+    debut: 465
+    sex: M
+    race: beastman
+    tribe: white wolf
+  - name: Christina Beallon
+    debut: 467
+    race: human
+    sex: F
+    # chairperson of Mozlan, sister of Count Beallon
+  - name: Minia Lirivia
+    debut: 467
+    race: beastman
+    tribe: white rabbit
+    # daughter of Baroness Lirivia
+  - name: James Elk
+    debut: 467
+    occupation: Lawyer
+  - name: Kaylmen Parteian
+    debut: 180 #needs verification
+    race: human
+    class: mage
+    school: Narmang
+  - name: Roland Banojant
+    debut: 627
+    alias: the Demon Eye
+    occupation: Deputy Commander of Orcules
+    sex: M
+    race: human
+    note: has skill to mute other sounds, possibly used for private conversation
     
+  
