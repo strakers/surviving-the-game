@@ -8,7 +8,7 @@ export default function Layout({ children }: LayoutProps<'/docs'>) {
     <ChapterProvider>
       <DocsLayout
         tree={source.pageTree}
-        {...baseOptions()}>
+        {...baseOptions(true)}>
         {children}
       </DocsLayout>
     </ChapterProvider>

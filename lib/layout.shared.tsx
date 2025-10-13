@@ -7,7 +7,16 @@ import ChapterSelector from '@/components/ui/ChapterSelector';
  * Home Layout: app/(home)/layout.tsx
  * Docs Layout: app/docs/layout.tsx
  */
-export function baseOptions(): BaseLayoutProps {
+export function baseOptions(withSelector = false): BaseLayoutProps {
+  const links = [];
+  if (withSelector) {
+    links.push({
+      type: 'custom',
+      children: <ChapterSelector />,
+      // secondary: true is often used to push it to the right/group it with icons
+      secondary: true,
+    });
+  }
   return {
     nav: {
       title: (
@@ -26,13 +35,6 @@ export function baseOptions(): BaseLayoutProps {
       transparentMode: 'top',
     },
     // see https://fumadocs.dev/docs/ui/navigation/links
-    links: [
-      {
-        type: 'custom',
-        children: <ChapterSelector />,
-        // secondary: true is often used to push it to the right/group it with icons
-        secondary: true,
-      }
-    ],
+    links,
   };
 }
