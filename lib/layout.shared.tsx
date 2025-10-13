@@ -1,5 +1,5 @@
 import type { BaseLayoutProps } from 'fumadocs-ui/layouts/shared';
-
+import ChapterSelector from '@/components/ui/ChapterSelector';
 /**
  * Shared layout configurations
  *
@@ -23,8 +23,16 @@ export function baseOptions(): BaseLayoutProps {
           STGB
         </>
       ),
+      transparentMode: 'top',
     },
     // see https://fumadocs.dev/docs/ui/navigation/links
-    links: [],
+    links: [
+      {
+        type: 'custom',
+        children: <ChapterSelector />,
+        // secondary: true is often used to push it to the right/group it with icons
+        secondary: true,
+      }
+    ],
   };
 }
