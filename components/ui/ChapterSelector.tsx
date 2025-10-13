@@ -9,8 +9,9 @@ export default function ChapterSelector() {
   } = useChapterContext();
 
   return (
-    <div>
+    <div className="flex flex-col gap-3 pb-2">
       <input
+        className="text-center rounded-lg border bg-fd-secondary/50 p-1.5 ps-2 text-sm text-fd-muted-foreground transition-colors hover:bg-fd-accent hover:text-fd-accent-foreground"
         title="Current chapter"
         type="number"
         min="0"
