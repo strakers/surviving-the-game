@@ -1,8 +1,9 @@
 import React, { PropsWithChildren, type DetailedReactHTMLElement } from "react";
 import Spoiler from "@/components/ui/Spoiler";
-import { Card } from "fumadocs-ui/components/card";
+import { Card, Cards } from "fumadocs-ui/components/card";
 import {Tab, Tabs} from 'fumadocs-ui/components/tabs';
-import { twMerge as cn } from 'tailwind-merge';
+import { Element } from "mdx/types";
+// import { twMerge as cn } from 'tailwind-merge';
 
 interface EssenceProps {
   name: string;
@@ -19,11 +20,11 @@ const Stats = ({ children }: PropsWithChildren) => {
   return children;
 }
 
-const validTabTypes = [Abilities, Stats];
+const validTabTypes: (Element|string)[] = [Abilities, Stats];
 
 function Essence({ name, rank, chapterGained = -1, chapterRemoved = 0, children }: PropsWithChildren<EssenceProps>) {
-  const abilities = [];
-  const stats = [];
+  const abilities: Element[] = [];
+  const stats: Element[] = [];
   const tabLabels = [
     'Description',
   ];
@@ -65,4 +66,10 @@ function Essence({ name, rank, chapterGained = -1, chapterRemoved = 0, children 
   </Spoiler>);
 }
 
-export { Essence, Abilities, Stats };
+function EssenceList({ children }: PropsWithChildren) {
+  return <Cards>
+    {children}
+  </Cards>
+}
+
+export { Essence, Abilities, Stats, EssenceList };
