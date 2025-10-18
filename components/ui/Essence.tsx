@@ -1,7 +1,8 @@
 import React, { PropsWithChildren, type DetailedReactHTMLElement } from "react";
 import Spoiler from "@/components/ui/Spoiler";
-import { Card } from "fumadocs-ui/components/card";
+import { Card, Cards } from "fumadocs-ui/components/card";
 import {Tab, Tabs} from 'fumadocs-ui/components/tabs';
+import { Element } from "mdx/types";
 // import { twMerge as cn } from 'tailwind-merge';
 
 interface EssenceProps {
@@ -69,11 +70,11 @@ function Stat({ name, value }: PropsWithChildren<StatPair>) {
   );
 }
 
-const validTabTypes = [Abilities, Stats];
+const validTabTypes: (Element|string)[] = [Abilities, Stats];
 
 function Essence({ name, rank, chapterGained = -1, chapterRemoved = 0, children }: PropsWithChildren<EssenceProps>) {
-  const abilities: React.ReactNode[] = [];
-  const stats: React.ReactNode[] = [];
+  const abilities: Element[] = [];
+  const stats: Element[] = [];
   const tabLabels = [
     'Description',
   ];
@@ -115,6 +116,12 @@ function Essence({ name, rank, chapterGained = -1, chapterRemoved = 0, children 
   </Spoiler>);
 }
 
+function EssenceList({ children }: PropsWithChildren) {
+  return <Cards>
+    {children}
+  </Cards>
+}
+
 function assertChildPropsAsString(value: {type?: unknown}): value is ChildPropsAsString {
   if (value.type === undefined || typeof value.type !== 'string') return false;
   // if (value.props === undefined || value.props.children === undefined || typeof value.props.children !== 'string') return false;
@@ -125,4 +132,4 @@ function assertChildHasType(value: { type?: unknown }): value is ChildHasType {
   return (value.type !== undefined);
 }
 
-export { Essence, Abilities, Stats };
+export { Essence, Abilities, Stats, EssenceList };
