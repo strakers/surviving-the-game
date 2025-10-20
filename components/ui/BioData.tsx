@@ -1,6 +1,6 @@
 'use client';
 
-import { useBioDataContext } from "@/components/context/BioDataContext";
+import { useBioDataContext, type BioDataContextType } from "@/components/context/BioDataContext";
 
 function capitalize(text: string) {
   return text[0].toUpperCase() + text.slice(1);
@@ -13,7 +13,7 @@ function processKey(key: string): string {
   return capitalize(key);
 }
 
-function processValue(value: string|string[]|number): string {
+function processValue(value: string|string[]|number|undefined): string {
   if (value == null) return "";
   if (Array.isArray(value)) return value.map(capitalize).join(", ");
   if (typeof value === "number") return value.toString();

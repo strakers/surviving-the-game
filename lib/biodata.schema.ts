@@ -1,6 +1,8 @@
 
 import { z } from 'zod';
 
+export const biodataSexOptions = ['F','M','X','O'] as const;
+
 export const biodataSchema = z.object({
   alias: z.string().optional(),
   'real-name': z.string().optional(),
@@ -10,7 +12,7 @@ export const biodataSchema = z.object({
   affiliations: z.array(z.string()).optional(),
   race: z.string().optional(),
   class: z.string().optional(),
-  sex: z.enum(['F','M','X','O']).optional(),
+  sex: z.enum(biodataSexOptions).optional(),
   tribe: z.string().optional(),
   occupation: z.string().optional(),
   designation: z.string().optional(),
