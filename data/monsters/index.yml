@@ -1,0 +1,47 @@
+list:
+  - title: Uumdal
+    rank: 4
+    debut: ? # first mentioned 620
+    passive: Soul Connection # first piece of equipment obtained becomes soul-bound
+    actives: ?
+    stats: ?
+    exp: ?
+    facts: ?
+  - title: Arbet
+    rank: 3
+    debut: ? # first mentioned 620
+    passive: ?
+    actives: ?
+    stats: 
+      strength: +100
+      jumping power: +120
+      phys resist: +80
+      hearing: +60
+      dark resist: +40
+      soul power: +50
+      natural regen: +80
+      endurance: +60
+      bone strength: +60
+    exp: ?
+    facts: ?
+  - title: Orc Hero
+    named: Denish, Belta and Tarugas
+    rank: 5
+    debut: 68
+    floor: 3
+    habitat: Orc Colony
+    passive: Path of Heroes # All resistance and regeneration stats increase when HP below 50% and again at 20%
+    actives: 
+      - Gigantification # Your threat level and physical value increase in proportion to growth in size. Green essence
+      - Cry Of Frenzy # unknown, red essence
+      - Fighting Flag #unknown, blue essence
+    stats:
+      strength: +70
+      agility: +35
+      fighting spirit: +40
+      physical resistance: +20
+      bone strength: +30
+    exp: ?
+    facts: 
+      - hidden Boss that can be summoned by offering 777 Mighty Orc Warriors mana stones at the altar
+      - There are three different kinds of Orc Heroes that can be summoned, and each of them is an elite boss with a given name. These Orc Heroes, also known as the three orc brothers, drop essences of different colors depending on which one it is
