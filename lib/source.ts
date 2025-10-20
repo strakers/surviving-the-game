@@ -25,3 +25,7 @@ export async function getLLMText(page: InferPageType<typeof source>) {
 
 ${processed}`;
 }
+
+export async function getBioData(page: InferPageType<typeof source>) {
+  return page.data?.bio;
+}
