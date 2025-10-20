@@ -2,8 +2,6 @@
 
 import { useBioDataContext } from "@/components/context/BioDataContext";
 
-const bioKeyReplacements = {}
-
 function capitalize(text: string) {
   return text[0].toUpperCase() + text.slice(1);
 }

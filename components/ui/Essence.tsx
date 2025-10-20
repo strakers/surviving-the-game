@@ -1,9 +1,8 @@
-import React, { PropsWithChildren, type DetailedReactHTMLElement } from "react";
+import React, { PropsWithChildren } from "react";
 import Spoiler from "@/components/ui/Spoiler";
 import { Card, Cards } from "fumadocs-ui/components/card";
 import {Tab, Tabs} from 'fumadocs-ui/components/tabs';
 import { Element } from "mdx/types";
-// import { twMerge as cn } from 'tailwind-merge';
 
 interface EssenceProps {
   name: string;
@@ -34,7 +33,7 @@ const Stats = ({ children }: PropsWithChildren<{ wrap: boolean }>) => {
   const processedChildren: StatPair[] = [];
 
   // extract processed stats from children if not Element
-  React.Children.toArray(children).forEach((child, i) => {
+  React.Children.toArray(children).forEach((child) => {
     if (React.isValidElement(child)) {
       if (assertChildPropsAsString(child)) {
         const rawListString = child.props.children;

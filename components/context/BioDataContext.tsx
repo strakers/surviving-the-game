@@ -1,7 +1,7 @@
 'use client';
 
 import { z } from 'zod';
-import { createContext, useState, useEffect, useContext, type ReactNode, PropsWithChildren } from "react";
+import { createContext, useContext, PropsWithChildren } from "react";
 import {biodataSchema} from "@/lib/biodata.schema";
 
 export type BioDataContextType = z.infer<typeof biodataSchema>;
