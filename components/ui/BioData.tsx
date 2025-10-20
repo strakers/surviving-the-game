@@ -1,6 +1,6 @@
 'use client';
 
-import { useBioDataContext, type BioDataContextType } from "@/components/context/BioDataContext";
+import { useBioDataContext } from "@/components/context/BioDataContext";
 
 function capitalize(text: string) {
   return text[0].toUpperCase() + text.slice(1);
