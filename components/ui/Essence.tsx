@@ -61,7 +61,7 @@ const Stats = ({ children }: PropsWithChildren<{ wrap: boolean }>) => {
   return <div>{children}</div>;
 }
 
-function Stat({ name, value }: PropsWithChildren<StatPair>) {
+function Stat({ name, value }: PropsWithChildren<StatPair & { key?: string|number }>) {
   return (
     <div>
       <span>{name}</span>:&nbsp;
