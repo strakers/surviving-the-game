@@ -2,9 +2,9 @@
 
 import { z } from 'zod';
 import { createContext, useContext, PropsWithChildren } from "react";
-import {biodataSchema} from "@/lib/biodata.schema";
+import {infoSchema} from "@/lib/infoSchema";
 
-export type BioDataContextType = z.infer<typeof biodataSchema>;
+export type InfoContextType = z.infer<typeof infoSchema>;
 
 // export interface BioDataContextType {
 //   alias?: string;
@@ -21,19 +21,19 @@ export type BioDataContextType = z.infer<typeof biodataSchema>;
 //   debut?: number,
 // }
 
-export const BioDataContext = createContext<BioDataContextType|null>(null);
+export const InfoContext = createContext<InfoContextType|null>(null);
 
-export function useBioDataContext() {
-  return useContext(BioDataContext);
+export function useInfoContext() {
+  return useContext(InfoContext);
 }
 
-export function BioDataProvider({ children, bioData }: PropsWithChildren<{bioData?:BioDataContextType}>) {
-  if (!bioData) return children;
+export function InfoProvider({ children, info }: PropsWithChildren<{info?:InfoContextType}>) {
+  if (!info) return children;
 
   return (
-    <BioDataContext.Provider value={ bioData }>
+    <InfoContext.Provider value={ info }>
       { children }
-    </BioDataContext.Provider>
+    </InfoContext.Provider>
   )
 
 }
