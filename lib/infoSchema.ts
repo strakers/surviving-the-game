@@ -11,6 +11,7 @@ export const infoSchema = z.object({
   category: z.string().optional(),
   debut: z.number().optional(),
   designation: z.string().optional(),
+  district: z.number().optional(),
   nicknames: z.array(z.string()).optional(),
   occupation: z.string().optional(),
   race: z.string().optional(),
