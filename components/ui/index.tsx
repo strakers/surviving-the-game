@@ -1,6 +1,6 @@
 import Spoiler from '@/components/ui/Spoiler';
 import { Essence, Abilities, Stats, EssenceList } from '@/components/ui/Essence';
-import BioData from "@/components/ui/BioData";
+import InfoCard from "@/components/ui/InfoCard";
 
 const exports = {
   Spoiler,
@@ -8,7 +8,7 @@ const exports = {
   EssenceList,
   Abilities,
   Stats,
-  BioData,
+  InfoCard,
 };
 
 export default exports;

@@ -1,6 +1,6 @@
 'use client';
 
-import { useBioDataContext } from "@/components/context/BioDataContext";
+import { useInfoContext } from "@/components/context/InfoContext";
 
 function capitalize(text: string) {
   return text[0].toUpperCase() + text.slice(1);
@@ -20,13 +20,13 @@ function processValue(value: string|string[]|number|undefined): string {
   return capitalize(value);
 }
 
-export default function BioData() {
-  const bioData = useBioDataContext();
+export default function InfoCard() {
+  const infoData = useInfoContext();
 
-  if (!bioData) return <></>;
+  if (!infoData) return <></>;
 
   return (<div className="border-1 p-4 rounded-xl inline-block">
-    {Object.entries(bioData).map(([k, v]) => (
+    {Object.entries(infoData).map(([k, v]) => (
       <div key={k}><span className="text-fd-muted-foreground">{processKey(k)}</span>: {processValue(v)}</div>
     ))}
   </div>)
