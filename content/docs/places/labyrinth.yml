@@ -1,10 +1,15 @@
 floors:
   floor-1:
+    closure-time: 7days (ch15)
     regions:
       - name: Crystal Cave
         debut: 1 # double check
     rifts:
       - name: Blood Tinted Castle
+        debut: 27
+        monsters:
+          - gargoyle
+          - deadman
       - name: Glaciet Caves
       - name: Green Coal Mine
         debut: 374
@@ -23,6 +28,7 @@ floors:
          - mercurial liquid # consumable, MR +3 permanently (not stackable)
          - iron blessing # consumable, PR +3 permenently (not stackable)
   floor-2:
+  closure-time: 10days (ch15)
     regions:
       - name: Goblin Forest
         debut: 12
@@ -37,6 +43,7 @@ floors:
       - name: Land of the Dead
         debut: 23
   floor-3:
+    closure-time: ?
     regions:
       - name: Witch's Forest
         debut: ...
