@@ -157,5 +157,22 @@ characters:
     sex: M
     race: human
     note: has skill to mute other sounds, possibly used for private conversation
-    
+  - name: Morgan Caritumore
+    debut: 713
+    race: human
+    sex: M
+    occupation: 2nd Corps Knight Commander
+    note: former bodyguard of the king
+  - name: Meirin Huenbenia Raphdonia
+    debut: 712 (in portraits ans reference)
+    sex: F
+    race: human
+    notes: Ragna's mother (spoiler), currently deceased. The Marquis was truly in love with her, but she was his mistress.
+  - name: Randolph ...
+    sex: M
+    race: human
+    group: Orcules
+    debut: 712
+    notes: Wears glasses, appears to be a strategic advisor
+  
   
