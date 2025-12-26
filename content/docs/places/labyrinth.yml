@@ -1,6 +1,5 @@
 floors:
   floor-1:
-    closure-time: 7 days
     regions:
       - name: Crystal Cave
         debut: 1 # double check
@@ -24,18 +23,20 @@ floors:
          - mercurial liquid # consumable, MR +3 permanently (not stackable)
          - iron blessing # consumable, PR +3 permenently (not stackable)
   floor-2:
-    closure-time: 10 days
     regions:
       - name: Goblin Forest
-        debut: ...
+        debut: 12
+        facts:
+          - goblin traps appear randomly, independent of goblins
+          - goblins span in large group (sometimes of 15) and goblin variants can be encountered (goblin swordsman, goblin archer).
+          - corpse flowers are the knly source of water in the land
       - name: Beast's Den
         debut: ...
       - name: Rock Desert
         debut: ...
       - name: Land of the Dead
-        debut: ...
+        debut: 23
   floor-3:
-    closure-time: ???
     regions:
       - name: Witch's Forest
         debut: ...
@@ -44,14 +45,12 @@ floors:
       - name: Iron Rock Hills
         debut: ...
   floor-4:
-    closure-time: ???
     regions:
       - name: Sky Tower # name of whole region
         debut: ...
       - name: Tower of Courage # double check
         debut: ...
   floor-5:
-    closure-time: ???
     regions:
       - name: Great Demon's Realm # name of whole region
         debut: ?
