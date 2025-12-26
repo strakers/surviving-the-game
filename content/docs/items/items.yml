@@ -1,0 +1,40 @@
+list:
+  aegis armor:
+    name: Aegis Dragon Armor
+    number: ??
+    bound: true
+    type: armor
+    debut: 691
+    level: +13600
+    resonance: Aegis
+    passive: The Passive effect increases all resistances of the user by 10X for 10 seconds when the users life is in danger.
+    active: Taking damage accumulates stacks. Upon activation, it summons a massive Viking warrior to discharge the stacked damage as an attack against a target. Cooldown is 5 minutes. If the accumulated damage has exceeded a certain threshold, the summon will attack an additional time.
+    setEffect: Increases all regeneration speed
+    stats: []
+  aegis shield:
+    name: Aegis Barrier
+    number: 3
+    type: shield
+    level: +18600
+    resonance: Aegis
+    passive: Nullifies all damage blocked
+    stats: []
+  demon hammer:
+    name: Kraul's Demon Grinder
+    number: 87
+    debut: 302
+    type: hammer
+    level: +4800
+    paasive: There is a 500% damage increase when using a blunt weapon skill and soul energy consumption is halved. When knocked down, Shield Penetration gains a 50% bonus.
+  seige slaughterer:
+    name: Seige Slaughterer
+    number: 687
+    debut: 683
+    type: mace
+    level: +2800
+    stats:
+      strength: +40%
+      agility: -80%
+    
+    
+    
