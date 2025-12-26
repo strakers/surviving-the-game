@@ -1,4 +1,15 @@
 characters:
+  - name: Deyan Tvehirion
+    debut: 42
+    sex: M
+    race: human
+    class: mage
+    occupation: Head of Altemion school # raven's master
+  - name: Tarik, son of Liyen
+    debut: 45
+    sex: M
+    race: barbarian
+    designation: Evil spirit
   - name: Melter Pend 
     debut: 218
     occupation: Leader of the Nartel Clan
